@@ -126,6 +126,9 @@ main {
   padding: 10px;
 }
 
+.nav__list-item > a {
+  color: gray;
+
 .nav__list-item > a:visited {
   color: gray;
 }
