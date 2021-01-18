@@ -97,3 +97,7 @@ h5 {
 .more__suggestion-suggestion > span {
   margin-left: 10px;
 }
+
+.header__icon > a {
+  color: white;
+}
