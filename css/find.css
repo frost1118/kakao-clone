@@ -4,3 +4,49 @@
 
 .find__header {
 }
+
+.friendphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+}
+
+h5 {
+}
+
+.find__friend {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend__name {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.line1 {
+  height: 5px;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.find__header-list {
+  margin-bottom: 10px;
+}
