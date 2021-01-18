@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chats|Kakao Clone</title>
-    <script
-      src="https://kit.fontawesome.com/88d347d9cd.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="css/basic.css" rel="stylesheet"/>
+    <link href="css/index.css" rel="stylesheet"/>
   </head>
   <body>
+    <div class="top">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54 </span>
@@ -38,19 +40,20 @@
         </span>
       </div>
     </header>
+    <div/>
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat chat">
+        <li class="friendchat">
           <a href="chat.html">
             <div class="chat__column">
-              <img src="images/avatar.jpg" class="chat__avatar g-avatar" />
+              <img src="images/avatar.jpg" class="friendphoto" />
               <div class="chat__content">
-                <span class="chat__username">
-                  Lynn
-                </span>
-                <span class="chat__preview">
-                  Going home
-                </span>
+                <div class="chat__username">
+                  Best Friend
+                </div>
+                <div class="chat__preview">
+                  Congrats I love you!
+                </div>
               </div>
             </div>
             <div class="chat__column">

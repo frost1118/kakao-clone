@@ -1,0 +1,53 @@
+.friendphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+}
+
+main {
+  position: relative;
+  top: -10px;
+  padding: 0px 20px 20px 20px;
+}
+
+.friendchat > a {
+  color: unset;
+  text-decoration: unset;
+  display: flex;
+}
+
+.friendchat > a:visited {
+  color: unset;
+  text-decoration: unset;
+}
+
+.chat__column {
+  display: flex;
+}
+
+.chat__column:first-child {
+  width: 85%;
+  align-items: center;
+}
+
+.chat__content {
+  padding-left: 10px;
+}
+
+.chat__username {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.chat__preview {
+  font-size: 15px;
+  color: gray;
+  margin-top: 8px;
+}
+
+.chat__column:nth-child(2) {
+  width: 15%;
+  padding-top: 5px;
+  font-size: 13px;
+  color: gray;
+}

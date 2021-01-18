@@ -1,0 +1,176 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.top {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #523737;
+}
+
+.status-bar__column:first-child {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+
+.status-bar__column:nth-child(2) {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.status-bar__column > span {
+  padding: 4px;
+  font-size: 13px;
+}
+
+.status-bar__column > i {
+  padding: 4px;
+  font-size: 13px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #523737;
+  position: fixed;
+  width: 100vw;
+}
+
+.header__setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #523737;
+}
+
+.header__header-column:first-child {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.header__header-column:nth-child(2) {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.header__icon {
+  padding: 3px;
+}
+
+nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.nav__list {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.nav__list > li:first-child {
+  width: 30%;
+}
+
+.nav__list > li:nth-child(2) {
+  width: 40%;
+}
+
+.nav__list > li:nth-child(3) {
+  width: 40%;
+}
+
+.nav__list > li:nth-child(4) {
+  width: 30%;
+}
+
+.nav__list-item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: gray;
+  font-size: 20px;
+}
+
+.header__back-btn > a {
+  font-size: 12px;
+  color: white;
+  padding: 10px;
+}
+
+.nav__list-item > a:visited {
+  color: gray;
+}
+
+.header__icon > a:visited {
+  color: white;
+}
+
+.header__back-btn > a:visited {
+  color: white;
+  font-style: normal;
+}
+
+.header__back-btn {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.inmenu {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.inmenuicon {
+  color: white;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+
+.inchat {
+  justify-content: space-evenly;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}

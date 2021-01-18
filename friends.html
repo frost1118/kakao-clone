@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends|Kakao Clone</title>
-    <script
-      src="https://kit.fontawesome.com/88d347d9cd.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="css/basic.css" rel="stylesheet"/>
+    <link href="css/friends.css" rel="stylesheet"/>
   </head>
   <body>
+    <div class="top"></div>
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54 </span>
@@ -35,29 +37,29 @@
         </span>
       </div>
     </header>
+    <div/>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
-          <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+        <div class="myprofile">
+            <img src="images/avatar.jpg" class="myphoto" />
             <div class="friend__content">
               <span class="friend__name">
                 Jesse Lee
               </span>
               <span class="friend__status">
-                20001118
+                Hello, I'm yourself.
               </span>
             </div>
-          </div>
         </div>
       </header>
-      <div class="friends__plus-friend">
+      <div class="line1"></div>
+      <div class="plusfriend">
         <h5 class="friends__title">
           Plus Friend
         </h5>
-        <div class="friends__friend friend">
+        <div class="friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friendphoto" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -67,18 +69,19 @@
         </div>
       </div>
       <ul class="friends__list">
+        <div class="line2"></div>
         <h5 class="friends__title">
           Friends 14
         </h5>
-        <li class="friends__friend friend">
+        <li class="friendlist">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friendphoto" />
             <div class="friend__content">
               <span class="friend__name">
                 Friend
               </span>
               <span class="friend__status">
-                blahblahblah
+                Hello, I'm your friend.
               </span>
             </div>
           </div>

@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat|Kakao Clone</title>
-    <script
-      src="https://kit.fontawesome.com/88d347d9cd.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="css/basic.css" rel="stylesheet"/>
+    <link href="css/chat.css" rel="stylesheet"/>
   </head>
   <body>
+    <div class="top">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54 </span>
@@ -28,10 +30,10 @@
           <i class="fas fa-arrow-left fa-2x"></i>
         </a>
       </div>
-      <div class="header__header-column">
+      <div class="inchat">
         <h1 class="header__title">Best Friend</h1>
       </div>
-      <div class="header__header-column">
+      <div class="inmenuicon">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
@@ -40,22 +42,25 @@
         </span>
       </div>
     </header>
+    <div/>
     <main class="chat">
       <ul class="chat__messages">
-        <span class="chat__timestamp">
+        <div class="chat__timestamp">
           Friday, January 11, 2019
-        </span>
-        <li class="incoming-message message">
-          <img src="images/avatar.jpg" class="g-avatar message__avatar" />
+        </div>
+        <li class="incoming-message">
+          <img src="images/avatar.jpg" class="friendphoto"/>
           <div class="message__content">
-            <span class="message__author">Best Friend</span>
-            <div class="message__bubble">Congrats I love you!</div>
-          </div>
-          <span class="message__timestamp"></span>
+            <div class="message__author">Best Friend</div>
+            <div class="message">
+              <div class="message__bubble">Congrats I love you!</div>
+              <div class="message__timestamp">9:59</div>
+            </div>
+          </div>  
         </li>
-        <li class="incoming-message message">
-          <span class="message__timestamp"></span>
-          <div class="message__content">
+        <li class="incoming-message">
+          <div class="message">
+            <div class="message__timestamp">10:50</div>
             <div class="message__bubble">Thank you see you soon!</div>
           </div>
         </li>
