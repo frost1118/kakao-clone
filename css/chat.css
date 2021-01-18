@@ -1,10 +1,5 @@
-header {
-  background-color: #b2c7da;
-}
-
 main {
-  position: relative;
-  top: -34px;
+  margin: 60px 0px 0px 0px;
   padding: 20px;
   background-color: #b2c7da;
   height: 100vh;
@@ -46,7 +41,7 @@ ul {
 
 .incoming-message {
   display: flex;
-  width: 100vw;
+  width: 100%;
 }
 
 li:nth-child(2) {
@@ -83,7 +78,6 @@ li:nth-child(3) {
 
 .message__bubble:nth-child(2) {
   background-color: #fff000;
-  margin-right: 10px;
 }
 
 .message__timestamp {
