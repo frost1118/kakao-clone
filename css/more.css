@@ -5,17 +5,27 @@
 }
 
 main {
+  margin-top: 70px;
   padding: 20px;
 }
 
 .friends__friend {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .friend__column {
   display: flex;
   align-items: center;
+}
+
+.friend__column:first-child {
+  width: 70%;
+}
+
+.friend__column:nth-child(2) {
+  width: 10%;
 }
 
 .friend__content {
@@ -34,4 +44,56 @@ main {
   padding-left: 10px;
   font-size: 15px;
   color: gray;
+}
+
+.more__header {
+  margin-bottom: 10px;
+}
+
+.more__btn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.more__btn-list {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.more__btn-icon {
+  font-size: 12px;
+}
+
+.more__btn-title {
+  margin-left: 10px;
+}
+
+h5 {
+  margin-bottom: 10px;
+}
+
+.line1 {
+  height: 10px;
+  border-top: 1px solid lightgray;
+  width: 100%;
+}
+
+.more__suggestions-list {
+  font-size: 15px;
+}
+
+.more__suggestion-suggestion {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.suggestion__title {
+  font-size: 15px;
+}
+
+.more__suggestion-suggestion > span {
+  margin-left: 10px;
 }
