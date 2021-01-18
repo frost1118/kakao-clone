@@ -126,6 +126,10 @@ main {
   padding: 10px;
 }
 
+.header__icon > a {
+  color: white;
+}
+
 .nav__list-item > a {
   color: gray;
 }
