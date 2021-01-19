@@ -2,6 +2,7 @@
   width: 60px;
   height: 60px;
   border-radius: 30%;
+  animation: zoominout 2s ease-in-out infinite;
 }
 
 main {
@@ -50,4 +51,16 @@ main {
   padding-top: 5px;
   font-size: 13px;
   color: gray;
+}
+
+@keyframes zoominout {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
 }
